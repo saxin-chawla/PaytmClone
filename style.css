@@ -1,0 +1,487 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}  
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+
+header{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div img{
+    height: 70px;
+    width: 180px;
+    /* object-fit: fill; */
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li {
+    font-size: large;
+    list-style: none;
+    padding: 20px;
+}
+
+header #sign_in{
+    background-color: rgb(0,186,242) ;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+header #sign_in i {
+    background-color: rgb(15,74,138);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+header #sign_in:hover{
+    background-color: rgb(15,74,138);
+    
+}
+
+
+.alert{
+    background-color: rgb(246,246,246);
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 5%;
+}
+.alert a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main .sections_logo img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 48px;
+}
+
+main #first_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./mobiles.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 85vh;
+    height: 85vh;
+    
+}
+
+main #first_section h1{
+    font-size: 54px;
+}
+main #first_section p {
+    font-size: 22px;
+}
+
+main .sections_aside{
+    max-width: 35 6vw;
+    margin-left: 8%;
+}
+main .section_texts{
+    font-size: 1.5em;
+    padding: 28px 0px;
+}
+
+
+main .app_download{
+    background-color: black;
+    display: inline;
+    text-align: center;
+    color :white;
+    margin-left: 7%;
+    padding: 15px 35px;
+    border-radius: 30px; 
+}
+
+
+.flexing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 17px;
+}
+.flexing div{
+    padding: 3px;
+}
+
+
+#recharge_bill{
+    font-size: large;
+    background-color: rgb(0,186,242);
+    height: 35vh;
+    padding: 65px;
+    color: white;
+}
+
+.bordr img{ 
+    width: 64px;
+    height: 64px;
+}
+
+.bordr a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bordr{
+    /* border: 2px solid gray; */
+    border-radius: 4px;
+    width: 125px;
+    padding-left: 5px;
+}
+.bordr:hover{
+    background-color: rgb(128, 128, 128 , 0.3);
+
+}
+.h1Edit{
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+
+#book_buy{
+    font-size: large;
+    background-color: rgb(15,74,138);
+    height: 35vh;
+    padding: 65px;
+    color: white;
+
+}
+
+
+main #gray_bg{
+    background-color: rgb(245,247,250);
+    padding-top: 4%;
+}
+
+main #fourth_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./section_3_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 4%;
+    
+}
+
+
+main #fifth_section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./section_5_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 4%;
+    
+
+}
+
+
+
+
+main #sixth_section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./section_6_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:70vh;
+    height: 70vh;
+    padding-top: 120px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 4%;
+    
+
+}
+
+
+main #seventh_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px;
+    background-color:rgb(245,247,250);
+    
+    margin-bottom: 4%;
+    
+}
+
+
+
+
+main #seventh_section #hdfc{
+    background-image: url(./hdfc_atm.webp);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    height: 90vh;
+    max-width: 38vw;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+
+main #seventh_section #sbi img{
+    height: 20px;
+    margin-top: 53px;
+}
+
+main #seventh_section #hdfc img{
+    height: 185px;
+    height: 77px;
+}
+
+main #seventh_section #sbi{
+    background-image: url(./sbi_atm.webp);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    height: 90vh;
+    max-width: 38vw;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+
+.seventh_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 25px; */
+    padding: 55px 25px 10px 25px;
+    
+}
+
+.seventh_section_texts{
+    font-size: 23px;
+}
+
+
+
+main #eight_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./section_8_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;
+    
+}
+
+main #eight_section #learnMore a{ 
+    background-color: rgb(15,74,138);
+    text-align: center;
+    color :white;
+    margin-left: 7%;
+    padding: 20px 40px;
+    border-radius: 15px; 
+    font-size:larger ;
+    font: bold;
+}
+
+
+main #ninth_section_2{ 
+    background-image: url(./section_9_bg.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;
+    width: 100%;
+    
+}
+
+main #ninth_section{
+    background-image: url(./bg.webp);
+    background-repeat: no-repeat;
+    object-fit: fill;
+    width: 100%;
+}
+main .right_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    float: right;
+}
+
+
+main #tenth_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./section_10_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;   
+}
+
+
+
+main #eleventh_section_2{
+    
+    background-image: url(./section_11_bg.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:75vh 35vw;
+    height: 70vh;
+    padding-top: 120px;
+    
+}
+
+main #eleventh_section{
+    background-color: rgb(245,247,250);
+    
+}
+
+main #twelveth_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./section_12_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;
+    border-radius: 25px;
+    background-color: rgb(245,247,250);
+    margin-bottom: 50px;
+    
+    
+}
+
+
+main #thirteenth_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url(./section_13_bg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:75vh;
+    height: 70vh;
+    padding-top: 120px;
+    padding-top: 120px;
+    border-radius: 25px;
+    background-color: rgb(245,247,250);
+    
+}
+
+
+.learn_more a{
+    background-color: rgb(15,74,138);
+    text-align: center;
+    color :white;
+    margin-left: 7%;
+    padding: 14px 35px;
+    border-radius: 30px; 
+    font-size: larger;
+    font: bold;
+
+}
+
+main #forteenth_section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+main #forteenth_section img{
+    width: 20vw;
+}
+
+main #forteenth_section a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+footer{
+    margin: 7% 0px 0% 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240,251,255);
+    height: 30vh;
+   
+
+
+}
+footer h2{
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+footer #apps{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer img{
+    height: 53px;
+    width: 179px;
+
+    
+}
+footer #apple img{
+    height: 53px;
+    width: 160px;
+    padding-right: 20px;
+}
+
+footer #social_logos{
+    float: right;
+    display: flex;
+    color: gray;
+    font-size: 25px;
+    align-items: center;
+}
+
+footer #social_logos div{
+    margin: 0px 40px 0px 0px;
+}
